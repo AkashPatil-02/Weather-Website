@@ -11,7 +11,7 @@ form.addEventListener('submit', searchLocation);
 
 let target = 'Hosur';
 const fetchResults = async (targetlocation) =>{
-    let url = `http://api.weatherapi.com/v1/current.json?key=d663c59129ac4af6b13122143241310&q=${targetlocation}&aqi=no`;
+    let url = `https://api.weatherapi.com/v1/current.json?key=d663c59129ac4af6b13122143241310&q=${targetlocation}&aqi=no`;
 
     const res = await fetch(url);
 
